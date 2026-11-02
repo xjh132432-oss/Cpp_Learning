@@ -1,33 +1,48 @@
-# Cpp_Training
+# Cpp_Learning
 
-C++ 基础、算法与竞赛训练记录。
+C++ 语言学习、现代 C++、数据结构与算法训练记录。
 
-主要记录 C++ 基础语法、STL、数据结构、算法以及竞赛题目的练习。
+主要记录 C++ 基础语法、现代 C++ 特性、STL、数据结构、算法专题以及竞赛题目的学习与实践。
 
 ## Content
 
-```text id="9p4q1v"
+```text
 cpp_basic
     ↓
-Alogrithm_training
+Cpp_Modern
     ↓
-Alogrithm Coding Practice
+Algorithm_training
+    ↓
+Algorithm_Coding_Practice
 ```
 
 ### cpp_basic
 
-C++ 基础练习：
+C++ 基础语法与编程练习：
 
-- 基础语法
+- 基础语法与数据类型
 - 数组 / 字符串
 - 指针 / 引用
 - `struct` / `class`
-- `vector`
-- STL
+- 函数与面向对象基础
+- `vector` 与 STL 基础
 - 文件 IO
 - 基础算法
 
-### Alogrithm_training
+### Cpp_Modern
+
+现代 C++ 特性与标准库学习：
+
+- 智能指针：`unique_ptr` / `shared_ptr` / `weak_ptr`
+- RAII 与资源管理
+- 移动语义与右值引用
+- 拷贝控制与特殊成员函数
+- Rule of Zero / Three / Five
+- STL 容器：`vector` / `list` / `deque`
+- 迭代器与迭代器失效
+- 容器操作与性能特性
+
+### Algorithm_training
 
 算法专题训练：
 
@@ -41,9 +56,9 @@ C++ 基础练习：
 - 图论
 - 坐标压缩
 
-### Alogrithm Coding Practice
+### Algorithm_Coding_Practice
 
-算法题与竞赛练习。
+算法题与竞赛练习记录。
 
 主要用于：
 
@@ -56,14 +71,24 @@ C++ 基础练习：
 
 ```text
 C++ 基础
-   ↓
+    ↓
+现代 C++ 与 STL
+    ↓
 数据结构与算法
-   ↓
-竞赛题训练
-   ↓
-工程实践
-   ↓
-C++ + Linux + AI
+    ↓
+算法题与竞赛实践
+    ↓
+C++ 工程开发
+    ↓
+Linux 系统编程
+    ↓
+AI / CV / 机器人系统集成
 ```
 
-持续完善 C++ 基础和算法能力。
+## Repository Purpose
+
+本仓库主要关注 C++ 语言本身、编程能力和算法能力的持续积累。
+
+工程化开发、CMake、Git、Linux 开发环境等内容主要放在独立的 `Cpp_Engineering` 仓库。
+
+通过持续学习、代码实践和问题总结，逐步建立扎实的 C++ 编程基础。
