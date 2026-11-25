@@ -93,7 +93,7 @@ std::weak_ptr<Device> DeviceManager::addDevice(
         [threshold](const auto& device){
             if(device->getTemperature()>threshold){
                 
-                std::cout << "overheat: "
+                std::cout << "overheat Id: "
                           << device->getId() << '\n';
             
             }

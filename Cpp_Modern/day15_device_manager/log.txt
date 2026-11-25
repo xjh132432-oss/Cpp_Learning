@@ -1,0 +1,7 @@
+<INFO>	Add Device	Successful Id:	1
+<INFO>	Add Device	Successful Id:	2
+<WARN>	Add Device	Id Already Exists:	1
+<INFO>	Add Device	Successful Id:	1
+<INFO>	Add Device	Successful Id:	2
+<WARN>	Add Device	Id Already Exists:	1
+<INFO>	Remove Device	Successful Id:	1
